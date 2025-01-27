@@ -23,10 +23,10 @@ function App() {
   function searchForOrder(){
     var config = {
       method: 'get',
-      url: `https://10.182.109.27/nitag/v2/tags/${searchText}/values/current`,
+      url: `https://local/nitag/v2/tags/${searchText}/values/current`,
       headers: { 
         'Content-Type': 'application/json', 
-        'x-ni-api-key': 'yBHwCN5xAIGtXi1tEoZA1S7gChMZB1SsXn_0gjUza8'
+        'x-ni-api-key': 'XXXXXXX'
       }
     };
 
